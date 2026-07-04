@@ -100,3 +100,27 @@ The second page focuses on deeper operational analysis, including:
 - Interactive dashboard design
 - Business insights and recommendations
 - Data storytelling
+
+## Dataset
+
+This project uses the **Appointment Scheduling Dataset** from Kaggle.
+
+**Original Dataset**
+- **Dataset Name:** Appointment Scheduling Dataset
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/your_dataset_link_here
+
+To support dashboard development and operational analysis, the original dataset was cleaned and transformed before visualization.
+
+### Data Preparation
+
+The following preprocessing steps were performed:
+
+- Cleaned and standardized the dataset for analysis.
+- Converted the original **Waiting Time** text field into numeric values.
+- Added two engineered features:
+  - **Waiting Time Days**
+  - **Waiting Time Hours**
+- Used the cleaned dataset as the data source for all Power BI visualizations.
+
+No original business records were removed or altered beyond data cleaning and feature engineering.
