@@ -22,18 +22,28 @@ Healthcare organizations need to monitor appointment volume, provider workload, 
 
 ## Dataset
 
-The dataset used in this project is a cleaned healthcare appointment scheduling dataset from Kaggle.
+This project uses the **Appointment Scheduling Dataset** from Kaggle.
 
-Main fields include:
+**Original Dataset**
+- **Dataset Name:** Healthcare Appointment Data - Power BI Project
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/swsw1717/healthcare-appointment-power-bi-project
 
-- Appointment date
-- Requesting date
-- Client ID
-- Provider Role
-- Waiting Time
-- Waiting Time Days
+To support dashboard development and operational analysis, the original dataset was cleaned and transformed before visualization.
 
-The dataset contains 99 appointment records and 99 unique patients.
+### Data Preparation
+
+The following preprocessing steps were performed:
+
+- Cleaned and standardized the dataset for analysis.
+- Converted the original **Waiting Time** text field into numeric values.
+- Added two engineered features:
+  - **Waiting Time Days**
+  - **Waiting Time Hours**
+- Used the cleaned dataset as the data source for all Power BI visualizations.
+
+No original business records were removed or altered beyond data cleaning and feature engineering.
+
 
 ## Dashboard Pages
 
@@ -100,27 +110,3 @@ The second page focuses on deeper operational analysis, including:
 - Interactive dashboard design
 - Business insights and recommendations
 - Data storytelling
-
-## Dataset
-
-This project uses the **Appointment Scheduling Dataset** from Kaggle.
-
-**Original Dataset**
-- **Dataset Name:** Healthcare Appointment Data - Power BI Project
-- **Source:** Kaggle
-- **Link:** https://www.kaggle.com/datasets/your_dataset_link_here
-
-To support dashboard development and operational analysis, the original dataset was cleaned and transformed before visualization.
-
-### Data Preparation
-
-The following preprocessing steps were performed:
-
-- Cleaned and standardized the dataset for analysis.
-- Converted the original **Waiting Time** text field into numeric values.
-- Added two engineered features:
-  - **Waiting Time Days**
-  - **Waiting Time Hours**
-- Used the cleaned dataset as the data source for all Power BI visualizations.
-
-No original business records were removed or altered beyond data cleaning and feature engineering.
