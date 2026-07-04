@@ -106,7 +106,7 @@ The second page focuses on deeper operational analysis, including:
 This project uses the **Appointment Scheduling Dataset** from Kaggle.
 
 **Original Dataset**
-- **Dataset Name:** Appointment Scheduling Dataset
+- **Dataset Name:** Healthcare Appointment Data - Power BI Project
 - **Source:** Kaggle
 - **Link:** https://www.kaggle.com/datasets/your_dataset_link_here
 
